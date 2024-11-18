@@ -15,5 +15,5 @@ const preview: Preview = {
 export default preview;
 
 setup((app) => {
-	//app.use(createPinia());
+	app.use(createPinia());
 });
